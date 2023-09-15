@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Picture.cpp" />
+    <ClCompile Include="PrimitiveFigure.cpp" />
+    <ClCompile Include="CentralWidget.cpp" />
+    <ClCompile Include="MainWnd.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Square.cpp" />
+    <ClCompile Include="CreateCommand.cpp" />
+    <ClCompile Include="DeleteCommand.cpp" />
+    <ClCompile Include="MoveCommand.cpp" />
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Ellipse.cpp" />
+    <ClCompile Include="TouchCommand.cpp" />
+    <ClCompile Include="DrawerLabel.cpp" />
+    <ClCompile Include="CopyInsertCommand.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="MoveAngleCommand.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Figure.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Picture.h" />
+    <ClInclude Include="PrimitiveFigure.h" />
+    <ClInclude Include="Square.h" />
+    <ClInclude Include="CreateCommand.h" />
+    <ClInclude Include="DeleteCommand.h" />
+    <ClInclude Include="MoveCommand.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Ellipse.h" />
+    <ClInclude Include="TouchCommand.h" />
+    <ClInclude Include="CopyInsertCommand.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="MoveAngleCommand.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MainWnd.h" />
+    <QtMoc Include="CentralWidget.h" />
+    <QtMoc Include="DrawerLabel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MainWnd.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MainWnd.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
